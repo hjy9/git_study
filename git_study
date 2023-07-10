@@ -1,4 +1,4 @@
-1. git branch -M main 기본 브랜치 이름 변경 .....
+1. git branch -M main 기본 브랜치 이름 변경 .............
 
 2. git -push -u 원격저장소주소 main
 - 로컬저장소의 main 브랜치를 원격저장소에 올린다.
@@ -28,3 +28,12 @@
 
 8. git pull origin 브랜치명
 - 특정 브랜치만 가져올 수 있다.
+
+9. git stash로 코드 잠깐 보관하기
+- git stash: 최근 commit 과의 차이점을 전부 보관한다.
+- git stash save '설명'
+- git stash list: stash 한 것들 확인
+- git stash pop: 가장 최근에 한 stash를 불러옴
+- commit시 주석도 반영되기 때문에 stash를 사용
+- git stash drop 번호: git list에 있는 stash 1개 삭제
+- git stash clear: stash 전부 삭제
