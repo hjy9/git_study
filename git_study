@@ -1,0 +1,17 @@
+1. git branch -M main 기본 브랜치 이름 변경
+
+2. git -push -u 원격저장소주소 main
+- 로컬저장소의 main 브랜치를 원격저장소에 올린다.
+- -u 옵션은 방금 입력한 주소를 기억한다. git push만으로 동작가능
+
+3. git remote add 변수명 저장소주소
+- 저장소주소를 변수명에 저장
+- git remote add origin https://.....
+- git push -u origin main
+
+4. 원격저장소에 있던거 그대로 내려받기
+- git clone https://원격저장소 주소
+
+5. 저장소에 올리지 않는 파일들은 .gitignore
+- 쓸데없는 파일을 commit 하지 않기 위해 사용한다.
+- .gitignore 파일을 만들면 저장소에 올리지 않을 파일들을 명시가능하다.
